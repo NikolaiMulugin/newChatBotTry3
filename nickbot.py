@@ -11,7 +11,7 @@ TG_TOKEN = '972319967:AAHKtNOYFR8eKZfmClHURdjKpbhgdNb1C3k'
 def do_start(bot: Bot, update: Update):
     bot.send_message(
         chat_id=update.message.chat_id,
-        text='Hello',
+        text='Привет, напиши номер группы и я покажу все пары этой группы в понедельник и вторник',
     )
 
 def do_echo(bot: Bot, update: Update):
