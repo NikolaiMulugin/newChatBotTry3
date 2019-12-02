@@ -1,4 +1,4 @@
-setuptools==0.7.3
+setuptools
 apiai==1.2.3
 certifi==2019.9.11
 cffi==1.13.2
