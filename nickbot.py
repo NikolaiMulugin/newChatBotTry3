@@ -66,7 +66,7 @@ def get_result_shedule(sch):
     return ans_l
 
 def get_info_from_db(num_of_group, weekdays : list):
-    engine = create_engine(ACCESS_TO_LOCAL_DB)
+    engine = create_engine(ACCESS_TO_HEROKU_DB)
     base = declarative_base()
 
     class schedule(base):#создание таблицы для получения информации из базы данных
